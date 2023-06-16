@@ -1,12 +1,7 @@
 # Sharing_places_app
-
-- For testing, run npm install then npm start on both backend and frontend
-- A web app used to share places to visit/travel to, among its users, based on Node - Express.js for the server-side, and on React.js for the front-end.
-- It uses Mongoose as an ODM and it also supports file upload for places and users. The server is stateless, authorization and authentication are
-done using JWT.
-- It uses Google Maps SDK to render a map with the place’s location, and Geocoding API to convert an address into coordinates when adding a
-new place.
-- The app has server-side validations using custom errors, which are manipulated by an error handling middle-ware, and it also contains client-
-side validations.
-- The front-end is deployed as a standalone React SPA on Firebase and the REST API is also standalone but on Heroku. The link to the web-app
-is: https://triptales2.web.app
+- The focus was to develop a recommendation system for travel planning, TripTales, that allows users to share their travel experiences and provide them the top 3 recommendations. My recommendation algorithm relies on the users’ behavior, similarities, the posts’ view count, and the places’ geographical location through the others. Users can interact like in a social media app because they can like, save or create posts about visited places and edit or delete their posts. They can search other users, see a specific user’s posts, their saved posts, and their own.
+- TripTales also integrates the OpenAI API in order to obtain travel itineraries. A user has to input the number of persons and days, and the travel destination. The result, a full itinerary for each day along with hotel recommendations, is sent via email.
+- This is web app based on Node - Express.js for the server, and on React.js for the client, which is also responsive to mobile resolution. The other technologies are Redis and MongoDB, for caching and databse. It is built respecting the N-Tier architecture and the MVC architectural design-pattern.
+- It uses Mongoose as an ODM and supports file upload for places and users, with the help of multer and static serving. The server is stateless, authorization and authentication are done using JWT, offering the signup, login, and change password features. It also uses Google Maps SDK to render a map with the place’s location, and Geocoding API to convert addresses into coordinates when adding a new place.
+- It uses Google Maps SDK to render a map with the place’s location, and Geocoding API to convert an address into coordinates when adding a new place.
+- The front-end is deployed as a standalone React SPA on Firebase and the REST API is also standalone but on Azure App Service. The database and the caching system are also independently deployed but on AWS. Feel free to try the application at: https://triptales2.web.app (note that the recommendation feature is not working on the deploy due to the need of a more performant and expensive Linux Plan)
