@@ -9,4 +9,4 @@ new place.
 - The app has server-side validations using custom errors, which are manipulated by an error handling middle-ware, and it also contains client-
 side validations.
 - The front-end is deployed as a standalone React SPA on Firebase and the REST API is also standalone but on Heroku. The link to the web-app
-is: https://project1-e7d58.web.app
+is: https://triptales2.web.app
