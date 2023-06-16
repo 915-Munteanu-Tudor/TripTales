@@ -1,0 +1,18 @@
+{
+  "env": {
+    "DB_USER": "",
+    "DB_PASSWORD": "",
+    "DB_NAME": "",
+    "GOOGLE_API_KEY": "",
+    "JWT_KEY": "",
+    "EMAIL_USER": "",
+    "EMAIL_PASSWORD": "",
+    "EMAIL_SERVICE": "",
+    "EMAIL_RECOMMENDATION_SUBJECT": "",
+    "EMAIL_ITINERARY_SUBJECT": "",
+    "OPENAI_API_KEY": "",
+    "REDIS_LABS_HOST": "",
+    "REDIS_LABS_PORT": "",
+    "REDIS_LABS_KEY": ""
+  }
+}
