@@ -1,4 +1,4 @@
-# Sharing_places_app
+# TripTales
 - The focus was to develop a recommendation system for travel planning, TripTales, that allows users to share their travel experiences and provide them the top 3 recommendations. My recommendation algorithm relies on the users’ behavior, similarities, the posts’ view count, and the places’ geographical location through the others. Users can interact like in a social media app because they can like, save or create posts about visited places and edit or delete their posts. They can search other users, see a specific user’s posts, their saved posts, and their own.
 - TripTales also integrates the OpenAI API in order to obtain travel itineraries. A user has to input the number of persons and days, and the travel destination. The result, a full itinerary for each day along with hotel recommendations, is sent via email.
 - This is web app based on Node - Express.js for the server, and on React.js for the client, which is also responsive to mobile resolution. The other technologies are Redis and MongoDB, for caching and databse. It is built respecting the N-Tier architecture and the MVC architectural design-pattern.
